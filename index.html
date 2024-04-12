@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phoenix: AI-Powered VC Navigator for Emerging Markets</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Phoenix: AI-Powered VC Navigator for Emerging Markets</h1>
+    </header>
+    <div class="container">
+        <img src="./images/new logo.jpeg" alt="Phoenix Logo">
+        <p class="instruction">To predict the success of a startup, input the following information:</p>
+        <form id="input-form">
+            <div class="form_container">
+                <div class="form1">
+                    <label for="city">City:</label>
+                    <select id="city" name="city" required>
+                        <option value="San Francisco">San Francisco</option>
+                        <option value="New York">New York</option>
+                        <option value="Palo Alto">Palo Alto</option>
+                        <option value="Austin">Austin</option>
+                        <option value="Seattle">Seattle</option>
+                        <option value="Mountain View">Mountain View</option>
+                        <option value="Chicago">Chicago</option>
+                        <option value="Los Angeles">Los Angeles</option>
+                        <option value="Boston">Boston</option>
+                        <option value="Vancouver">Vancouver</option>
+                    </select><br>
+                    
+                    <label for="total-funding">Total Funding (in USD):</label>
+                    <input type="number" id="total-funding" name="total-funding" required><br>
+                    
+                    <label for="year-founded">Year Founded:</label>
+                    <input type="number" id="year-founded" name="year-founded" required><br>
+                    
+                    <label for="debt-financing">Debt Financing (in USD):</label>
+                    <input type="number" id="debt-financing" name="debt-financing" required><br>
+                    
+                    <label for="venture-funding">Venture Funding (in USD):</label>
+                    <input type="number" id="venture-funding" name="venture-funding" required><br>
+                    
+                    <label for="seed-funding">Seed Funding (in USD):</label>
+                    <input type="number" id="seed-funding" name="seed-funding" required><br>
+                    
+                    <label for="angel-funding">Angel Funding (in USD):</label>
+                    <input type="number" id="angel-funding" name="angel-funding" required><br>
+                    
+                    <label for="grant">Grant (in USD):</label>
+                    <input type="number" id="grant" name="grant" required><br>
+                    
+                    <label for="convertible-note">Convertible Note (in USD):</label>
+                    <input type="number" id="convertible-note" name="convertible-note" required><br>
+                    
+                    <label for="private-equity">Private Equity (in USD):</label>
+                    <input type="number" id="private-equity" name="private-equity" required><br>
+                    
+                    <label for="undisclosed-funding">Undisclosed Funding (in USD):</label>
+                    <input type="number" id="undisclosed-funding" name="undisclosed-funding" required><br>
+                </div>
+                
+                <div class="form2">
+                    <label for="market">Market:</label>
+                    <select id="market" name="market" required>
+                        <option value="Biotechnology">Biotechnology</option>
+                        <option value="Mobile">Mobile</option>
+                        <option value="Curated Web">Curated Web</option>
+                        <option value="Enterprise Software">Enterprise Software</option>
+                        <option value="Health Care">Health Care</option>
+                        <option value="E-Commerce">E-Commerce</option>
+                        <option value="Hardware + Software">Hardware + Software</option>
+                        <option value="Advertising">Advertising</option>
+                        <option value="Clean Technology">Clean Technology</option>
+                        <option value="Health and Wellness">Health and Wellness</option>
+                    </select><br>
+                    
+                    <label for="country">Country:</label>
+                    <select id="country" name="country" required>
+                        <option value="USA">USA</option>
+                        <option value="Canada">Canada</option>
+                    </select><br>
+
+                    <label for="funding-rounds">Funding Rounds:</label>
+                    <input type="number" id="funding-rounds" name="funding-rounds" required><br>
+
+                    <label for="first-funding-date">First Funding Date:</label>
+                    <input type="date" id="first-funding-date" name="first-funding-date" required><br>
+                    
+                    
+                    <label for="last-funding-date">Last Funding Date:</label>
+                    <input type="date" id="last-funding-date" name="last-funding-date" required><br>
+
+                    <label for="first-funding-received">1st Funding Received (in USD):</label>
+                    <input type="number" id="first-funding-received" name="first-funding-received" required><br>
+                    
+                    <label for="second-funding-received">2nd Funding Received (in USD):</label>
+                    <input type="number" id="second-funding-received" name="second-funding-received" required><br>
+
+                    <label for="third-funding-received">3rd Funding Received (in USD):</label>
+                    <input type="number" id="third-funding-received" name="third-funding-received" required><br>
+                    
+                    <label for="fourth-funding-received">4th Funding Received (in USD):</label>
+                    <input type="number" id="fourth-funding-received" name="fourth-funding-received" required><br>
+                    
+                    <label for="fifth-funding-received">5th Funding Received (in USD):</label>
+                    <input type="number" id="fifth-funding-received" name="fifth-funding-received" required><br>
+                    
+                    <label for="sixth-funding-received">6th Funding Received (in USD):</label>
+                    <input type="number" id="sixth-funding-received" name="sixth-funding-received" required><br>
+                </div>
+            </div>
+            <button type="submit">Predict</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 AI-Powered VC Navigator</p>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
